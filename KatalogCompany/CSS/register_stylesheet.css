@@ -1,0 +1,256 @@
+body{
+    background-color: black;
+}
+.header12{
+    border-style: solid;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(223,223,223,0.51);
+    border-color: darkgray;
+}
+h2#oglav{
+    font-family: Arial;
+    font-size: 24pt;
+    color: #333333;
+    font-size: 30px;
+    line-height: 40px;
+}
+div#login{
+    margin-top: 20px;
+}
+div#password{
+    margin-top: 20px;
+}
+div#submit{
+    margin-top: 10px;
+    margin-right: 75px;
+}
+input {
+    padding: 5px;
+    border: 4px solid #F1B720;
+    border-radius: 5px;
+    color: #333;
+    transition: all 0.3s ease-out;
+}
+
+input:hover {
+    border-radius: 8px
+}
+
+input:focus {
+    outline: none;
+    border-radius: 8px;
+    border-color: #EBD292;
+}
+.modern {
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 15px;
+    background: #B8ED01;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    transition: all 0.3s ease-out;
+    box-shadow:
+            inset 0 1px 0 rgba(255,255,255,0.5),
+            0 2px 2px rgba(0,0,0,0.3),
+            0 0 4px 1px rgba(0,0,0,0.2);
+    /* Font styles */
+    text-decoration: none;
+    text-shadow: 0 1px rgba(255,255,255,0.7);
+}
+.inline-link-1 {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 3px;
+    background: #97CAF2;
+    border-radius: 2px;
+    transition: all 0.3s ease-out;
+    /* Font styles */
+    text-decoration: none;
+    font-weight: bold;
+    color: dimgray;
+}
+
+.inline-link-1:hover {
+    background: #53A7EA
+}
+
+.inline-link-1:active {
+    background: #C4E1F8
+}
+
+.inline-link-1:visited {
+    background: #F2BF97
+}
+
+.modern:hover {
+    background: #C7FE0A
+}
+.modern1 {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 8px 15px;
+    background: #B8ED01;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    transition: all 0.3s ease-out;
+    box-shadow:
+            inset 0 1px 0 rgba(255,255,255,0.5),
+            0 2px 2px rgba(0,0,0,0.3),
+            0 0 4px 1px rgba(0,0,0,0.2);
+    /* Font styles */
+    text-decoration: none;
+    text-shadow: 0 1px rgba(255,255,255,0.7);
+}
+div#submit1{
+    margin-top: 10px;
+    margin-right: 110px;
+}
+span#complete{
+    color: white;
+    font-size: 34pt;
+}
+.allproject {
+    margin: 0 auto;
+    width: 1500px;
+    height: 800px;
+    background-color: white;
+    box-shadow: 0 0 20px 1px rgba(255,255,255,0.7);
+
+}
+
+.header {
+    width: 100%;
+
+}
+
+.redline {
+    display: flex;
+    background-color: #cd113d;
+    width: 100%;
+    height: 10%;
+}
+
+.regauto {
+    margin-left: auto;
+    margin-right: 1%;
+}
+
+.redline span {
+    color: white;
+    font-family: Arial;
+    font-size: 12pt;
+
+}
+
+.logoandpoisk {
+    display: flex;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+img, .logo {
+    width: 60%;
+    height: 50%;
+}
+
+.search:after {
+    content: "";
+    clear: both;
+    display: table
+}
+
+.search form {
+    width: auto;
+    float: right;
+    margin-right: 20%;
+    margin-top: 25%;
+}
+
+.search input {
+    width: 250px;
+    height: 42px;
+    padding-left: 15px;
+    border-radius: 42px;
+    border: 2px solid #324b4e;
+    background: #F9F0DA;
+    outline: none;
+    position: relative;
+    transition: .3s linear;
+}
+
+.search input:focus {
+    width: 300px;
+}
+
+.Navigation {
+    display: flex;
+    margin: auto;
+    background-color: #888888;
+    color: white;
+}
+
+.Home {
+    border-style: none;
+    background-color: #cd113d;
+    margin-left: 10%;
+    margin-right: 1%;
+}
+
+.addcatalog {
+    margin-right: 1%;
+}
+
+.addcatalog:hover {
+    background-color: #cd113d;
+}
+
+.toppizza {
+    margin-right: 1%;
+}
+
+.toppizza:hover {
+    background-color: #cd113d;
+}
+
+.toprestoran {
+    margin-right: 1%;
+}
+
+.toprestoran:hover {
+    background-color: #cd113d;
+}
+
+.topsuhiroll {
+    margin-right: 1%;
+}
+
+.topsuhiroll:hover {
+    background-color: #cd113d;
+}
+
+.topzdorovoepit {
+    margin-right: 1%;
+}
+
+.topzdorovoepit:hover {
+    background-color: #cd113d;
+}
+
+.Navigation span {
+    font-family: Arial;
+    font-size: 16pt;
+    color: white;
+}
+
+.companys {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}

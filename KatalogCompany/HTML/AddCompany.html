@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Добавить компанию</title>
+    <link rel="stylesheet" href="../CSS/stylesheet.css">
+    <link rel="stylesheet" href="../CSS/add_company_style.css">
+</head>
+<body>
+<div class="allproject">
+    <div class="header">
+        <div class="redline">
+            <div>
+                <span>Добро пожаловать</span>
+            </div>
+            <div class="regauto">
+                <a href=""><span id="reg">Регистрация|Вход</span></a>
+            </div>
+        </div>
+        <div class="logoandpoisk">
+            <div class="logo">
+                <img src="../images/logo/lacorda-1.jpg" alt="">
+            </div>
+            <div class="search">
+                <form action="">
+                    <input type="text" placeholder="Искать здесь...">
+                </form>
+            </div>
+        </div>
+        <div class="Navigation">
+            <div class="Home">
+                <a href="../index.php"><span>Главная - Каталог</span></a>
+            </div>
+            <div class="addcatalog">
+                <a href=""><span>Добавить Компанию</span></a>
+            </div>
+            <div class="toppizza">
+                <a href=""><span>Топ пиццерии</span></a>
+            </div>
+            <div class="toprestoran">
+                <a href=""><span>Топ Ресторанов</span></a>
+            </div>
+            <div class="topsuhiroll">
+                <a href=""><span>Топ суши роллы</span></a>
+            </div>
+            <div class="topzdorovoepit">
+                <a href=""><span>Топ здоровое питание</span></a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="alladd">
+
+        <div class="form_add_company">
+            <form action="../PHP/Companys/database_company.php" method="post">
+                <div class="k1">
+                    <span>Добавление Компании</span>
+                </div>
+                <div class="line1">
+                    <dt>Введите название компании:</dt>
+                    <dd><input type="text" name="name_company"></dd>
+                </div>
+                <!--Блок 1 конец-->
+                <div class="line2">
+                    <dt>Введите краткую информацию компании:</dt>
+                    <dd><input type="text" name="info_company" id="opis"></dd>
+                </div>
+                <!--Блок 2 конец-->
+                <div class="line3">
+                    <dt>Введите адрес электронной почты хозяина компании:</dt>
+                    <dd><input type="text" name="mail_company"></dd>
+                </div>
+                <!--Блок 3 конец-->
+                <div class="line4">
+                    <dt>Введите адрес компании:</dt>
+                    <dd><input type="text" name="adres_company"></dd>
+                </div>
+                <!--Блок 4 конец-->
+                <div class="line5">
+                    <dt>Введите номер телефона, чтобы связаться с компание:</dt>
+                    <dd><input type="text" name="fhone"></dd>
+                </div>
+                <!--Блок 5 конец-->
+                <div class="line6">
+                    <dt>Введите http адрес компании:</dt>
+                    <dd><input type="text" name="internet_adres_company"></dd>
+                </div>
+                <!--Блок 6 конец-->
+                <input type="submit" value="Готово" id="okey">
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

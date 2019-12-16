@@ -1,0 +1,110 @@
+.alladd {
+    margin: 0 auto;
+    height: 100%;
+}
+
+.k1 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(195, 195, 195, 0.4);
+}
+
+.alladd span {
+    margin-left: 40%;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+
+}
+
+.form_add_company {
+    /*border-style: solid;*/
+    /*border-width: 2px;*/
+    /*border-color: rgba(195, 195, 195, 0.5);*/
+    /*background-color: rgba(195, 195, 195, 0.31);*/
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 50%;
+    padding: 32px;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #ccc;
+    height: 700px;
+}
+
+.form_add_company dl {
+    margin-left: 30%;
+
+}
+
+.form_add_company input#okey {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    border-radius: 4px;
+    color: #555555;
+    display: block;
+    width: 120px;
+    margin-top: 10%;
+    margin-left: 80%;
+    font-size: 14px;
+    text-align: center;
+    height: 30px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.form_add_company input#okey:hover, .form_add_company input#okey:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+}
+
+.form_add_company dt {
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.form_add_company input {
+    border-style: solid;
+    width: 200px;
+    height: 20px;
+}
+
+.form_add_company input#opis {
+    border-style: solid;
+    width: 300px;
+    height: 200px;
+}
+
+.line1 {
+    display: flex;
+    margin-top: 5%;
+}
+
+.line2 {
+    display: flex;
+    margin-top: 5%;
+}
+
+.line3 {
+    display: flex;
+    margin-top: 5%;
+}
+
+.line4 {
+    display: flex;
+    margin-top: 5%;
+}
+
+.line5 {
+    display: flex;
+    margin-top: 5%;
+}
+
+.line6 {
+    display: flex;
+    margin-top: 5%;
+}
